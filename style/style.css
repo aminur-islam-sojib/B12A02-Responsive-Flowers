@@ -28,7 +28,7 @@ body {
     font-family: "Noto Serif", serif;
 }
 
-/* Nav */
+/* Header */
 .nav-span {
     position: relative;
 }
@@ -63,4 +63,49 @@ nav li a::before {
 
 nav li a:hover::before {
     width: 100%;
+}
+
+/* Cards */
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    transition: ease 0.7s;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: rgba(233, 90, 8, 1);
+    color: aliceblue;
+}
+
+.card h3,
+.card p,
+.card button {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-weight: bold;
+}
+
+.card button {
+    background-color: rgba(233, 90, 8, 1);
+    padding: 10px;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:hover button {
+    background-color: white;
+    color: rgba(233, 90, 8, 1);
 }
