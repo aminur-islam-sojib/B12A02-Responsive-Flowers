@@ -110,6 +110,8 @@ nav li a:hover::before {
     color: rgba(233, 90, 8, 1);
 }
 
+
+/* Optional Section */
 .image1 {
     background-image: url(../assets/deal-ana.png);
     padding: 100px;
@@ -174,4 +176,27 @@ nav li a:hover::before {
 .image2 a,
 .image3 a {
     text-decoration: underline;
+}
+
+/* Join Section */
+input {
+    border-radius: 8px 0 0 8px;
+}
+
+.btn {
+    background-color: rgba(233, 90, 8, 1);
+    padding: 16px;
+    /* margin-left: 20px; */
+    margin-left: -5px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    outline: 3px solid rgba(233, 90, 8, 1);
+    color: rgba(233, 90, 8, 1);
 }
