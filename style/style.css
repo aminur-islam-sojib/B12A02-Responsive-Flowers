@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 body {
     font-family: "Inter", sans-serif;
     background-color: rgba(245, 248, 255, 1);
@@ -109,4 +110,68 @@ nav li a:hover::before {
     color: rgba(233, 90, 8, 1);
 }
 
-/* Badge */
+.image1 {
+    background-image: url(../assets/deal-ana.png);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    position: relative;
+    border-radius: 10px 10px 25px 25px;
+}
+
+.i-1-sub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image2 {
+    background-image: url(../assets/deal-bloom.png);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    position: relative;
+    border-radius: 10px 10px 25px 25px;
+}
+
+.i-2-sub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image3 {
+    background-image: url(../assets/deal-zabo.png);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 750px;
+    position: relative;
+    border-radius: 10px 10px 25px 25px;
+}
+
+.i-3-sub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image1 h1,
+.image2 h1,
+.image3 h1 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+.image1 a,
+.image2 a,
+.image3 a {
+    text-decoration: underline;
+}
