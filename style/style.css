@@ -50,6 +50,7 @@ nav li a {
     transition: 1s;
 }
 
+
 nav li a::before {
     content: "";
     position: absolute;
@@ -199,4 +200,16 @@ input {
     background-color: transparent;
     outline: 3px solid rgba(233, 90, 8, 1);
     color: rgba(233, 90, 8, 1);
+}
+
+
+/* Footer */
+
+.icons a {
+    width: 50px;
+    height: 50px;
+}
+
+footer ul li {
+    margin-bottom: 20px;
 }
