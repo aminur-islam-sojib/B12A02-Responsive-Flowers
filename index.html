@@ -15,19 +15,30 @@
 
 <body>
     <header class="max-w-[1140px] mx-auto">
-        <nav class="flex justify-between align-middle items-center mt-2">
+        <nav class="flex justify-between align-middle items-center mt-2 max-sm:mx-7 max-lg:mx-10">
             <div class="">
                 <img src="assets/logo.png" alt="" class="h-15">
             </div>
-            <ul class="flex gap-5">
-                <li><a href="">Home</a></li>
-                <li><a href="" class="blue-gray">Shop</a></li>
-                <li><a href="" class="blue-gray">About Us</a></li>
+            <div class="flex gap-5">
+                <ul class="flex gap-5 max-sm:hidden">
+                    <li><a href="">Home</a></li>
+                    <li><a href="" class="blue-gray">Shop</a></li>
+                    <li><a href="" class="blue-gray">About Us</a></li>
+                </ul>
                 <span class="flex gap-2 nav-span"><img src="assets/shopping-cart.svg" alt="" class="h-5">
                     <p>Cart(56$)</p>
                 </span>
-            </ul>
+            </div>
         </nav>
+        <div class="flex mt-15 items-end max-sm:flex-col-reverse max-lg:mx-10 max-sm:mx-0">
+            <div class="txt-container flex-1  max-sm:mx-7">
+                <h1 class="header text-6xl mb-4 max-sm:mt-5">ALWAYS <span class="orange"> FRESH <br> FLOWERS</span></h1>
+                <p class="lightGray">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                    classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any
+                    occasion. </p>
+            </div>
+            <div class="img-container flex-1"><img src="assets/hero-flower.png" alt=""></div>
+        </div>
     </header>
 </body>
 
