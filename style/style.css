@@ -202,6 +202,9 @@ input {
     color: rgba(233, 90, 8, 1);
 }
 
+.join-section {
+    background-image: url(../assets/news-letter-bg.png);
+}
 
 /* Footer */
 
