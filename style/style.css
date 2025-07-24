@@ -111,6 +111,11 @@ nav li a:hover::before {
     color: rgba(233, 90, 8, 1);
 }
 
+/* Badges */
+.badge {
+    filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.5));
+}
+
 
 /* Optional Section */
 .image1 {
@@ -187,7 +192,6 @@ input {
 .btn {
     background-color: rgba(233, 90, 8, 1);
     padding: 16px;
-    /* margin-left: 20px; */
     margin-left: -5px;
     border-radius: 0 8px 8px 0;
     cursor: pointer;
